@@ -282,9 +282,9 @@ function App() {
               </li>
 
               <li class="footer__social-link-item">
-                <a href="https://www.linkedin.com/in/alexandra-docheff/" title="Link to Linkedin Profile" />
+                <a href="https://www.linkedin.com/in/alexandra-docheff/" title="Link to Linkedin Profile" >
                 <img src={linkedin} title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin" />
-
+                </a>
               </li>
             </ul>
 
