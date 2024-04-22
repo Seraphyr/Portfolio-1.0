@@ -1,7 +1,14 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import arrowUp from '/public/images/arrow-up.svg';
+import audnMockup from '/public/images/audn-mockup.jpg';
+import fyloMockup from '/public/images/fylo-mockup.jpg';
+import github from '/public/images/github.svg';
+import header from '/public/images/header.jpg';
+import linkedin from '/public/images/linkedin.svg';
+import pokedexMockup from '/public/images/pokedex-mockup.jpg';
+import mountain from '/public/images/mountain.png';
+
 
 function App() {
 
@@ -131,12 +138,12 @@ function App() {
                       </a>
                       <a href="https://github.com/Seraphyr/Frontend-Proyecto-Integrador-Final" title="View Source Code" target="_blank">
                         <a href="https://github.com/Seraphyr/Backend-Proyecto-Integrador-Final" title="View Source Code" target="_blank" />
-                        <img src="./images/github.svg" class="work__code" alt="GitHub" />
+                        <img src={github} class="work__code" alt="GitHub" />
                       </a>
                     </div>
                   </div>
                   <div class="work__image-box">
-                    <img src="./images/audn-mockup.jpg" class="work__image" alt="Project 1" />
+                    <img src={audnMockup} class="work__image" alt="Project 1" />
                   </div>
                 </div>
 
@@ -156,12 +163,12 @@ function App() {
                         Visit Site <span>&rarr;</span>
                       </a>
                       <a href="https://github.com/Seraphyr/proyectoPokedex" title="View Source Code" target="_blank">
-                        <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub" />
+                        <img src={github} class="work__code" title="View Source Code" alt="GitHub" />
                       </a>
                     </div>
                   </div>
                   <div class="work__image-box">
-                    <img src="./images/pokedex-mockup.jpg" class="work__image" alt="Project 1" />
+                    <img src={pokedexMockup} class="work__image" alt="Project 1" />
                   </div>
                 </div>
 
@@ -179,7 +186,7 @@ function App() {
                     </ul>
 
                     <div class="work__links">
-                    <a href="https://sprint5-lovat.vercel.app" class="link__text">
+                      <a href="https://sprint5-lovat.vercel.app" class="link__text">
                         Visit Site <span>&rarr;</span>
                       </a>
                       <a href="https://github.com/Seraphyr/sprint5" title="View Source Code" target="_blank">
@@ -188,7 +195,7 @@ function App() {
                     </div>
                   </div>
                   <div class="work__image-box">
-                    <img src="./images/mockup2.jpg" class="work__image" alt="Project 3" />
+                    <img src={fyloMockup} class="work__image" alt="Project 3" />
                   </div>
                 </div>
               </div>
@@ -217,7 +224,7 @@ function App() {
 
                   <p>
 
-                    I am Alexandra, a passionate Junior Web Developer with a focus on frontend. If I had to describe myself with one word, it would be perseverance. This quality has been forged in me through a diverse range of work and personal experiences that have taught me the importance of standing firm in the face of challenges and learning from every obstacle. <br />
+                    I'm Alexandra, a passionate Junior Web Developer with a focus on frontend. If I had to describe myself with one word, it would be perseverance. This quality has been forged in me through a diverse range of work and personal experiences that have taught me the importance of standing firm in the face of challenges and learning from every obstacle. <br />
 
                     My journey so far has been a blend of experiences in different roles and areas of knowledge. From my work in administrative procedure management to my training in graphic design and web development, I have gained diverse skills and knowledge that have prepared me to tackle web development challenges with confidence and determination. <br />
 
@@ -255,7 +262,7 @@ function App() {
 
               <a href="mailto:t.docheff@gmail.com" class="btn">t.docheff@gmail.com</a>
               <a
-                class="btn" onClick={() => navigator.clipboard.writeText('t.docheff@gmail.com')}Copy this text to clipboard
+                class="btn" onClick={() => navigator.clipboard.writeText('t.docheff@gmail.com')} Copy this text to clipboard
               >Copy to Clipboard</a>
             </div>
           </div>
@@ -270,13 +277,13 @@ function App() {
 
               <li class="footer__social-link-item">
                 <a href="https://github.com/Seraphyr" title="Link to Github Profile">
-                  <img src="./images/github.svg" class="footer__social-image" alt="Github" />
+                  <img src={github} class="footer__social-image" alt="Github" />
                 </a>
               </li>
 
               <li class="footer__social-link-item">
                 <a href="https://www.linkedin.com/in/alexandra-docheff/" title="Link to Linkedin Profile" />
-                <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin" />
+                <img src={linkedin} title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin" />
 
               </li>
             </ul>
@@ -293,7 +300,7 @@ function App() {
         </footer>
 
         <a href="#top" class="back-to-top" title="Back to Top">
-          <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+          <img src={arrowUp} alt="Back to Top" class="back-to-top__image" />
         </a>
         <script src="./index.js"></script>
       </body>
